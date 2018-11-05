@@ -1,5 +1,5 @@
 $(document).ready(function() {    
-var counter = 10; 
+var counter = 60; 
 $(".timer").html("<p>" + counter + "</p>"); 
 run();
 var intervalId;
@@ -15,7 +15,7 @@ function run() {
         if (counter === 0) {
             stop();
             $(".resultsR").html("<p>" + "Right: " + right + "</p>");
-        $(".resultsW").html("<p>" + "Wrong: " + wrong + "</p>");
+            $(".resultsW").html("<p>" + "Wrong: " + wrong + "</p>");
 
         }
         }

@@ -12,3 +12,15 @@ header {
 .container {
     text-align: center;
 }
+.timer {
+    background-color: white;
+}
+.question {
+    background-color: white;
+}
+.Choice {
+    background-color: white;
+}
+.Info {
+    background-color: white;
+}
